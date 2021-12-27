@@ -65,16 +65,11 @@ Pero  cuando llegas a colaborar con otras personas como "usuario" y el repositor
 
 Pero al momento de tener un flujo de trabajo con diversas personas nada debe de ser enviado al MASTER hasta no ser revisado por un DevOps para ello debe haber una rama simulando ser el "master"
 
+Un pull request es usado que como una pausa entre los colaboradores para poder dar el visto bueno o tomar puntos para  corregir ciertas cosas y posteriormente haciendo un merge
+
+Pero el mundo de github no se detiene ahi ya que tambien es usado por personas que no colaboran directamente con un proyecto pero quieren aportar
+
+Y esto se hace mediante un "Fork" clonando el repositorio y haciendo un fork en la pagina de github a la vez usando un pull request para los creadores y si pueden agregarlo al proyecto con un merge
 
 
-
-
-
-
-
-
-
-
-
-
-Un pull request es usado en un ambiente de trabajo siendo verificado (DevOps) creando una rama especifica para previasualizar con otra rama aparentando ser el MASTER
+Entre algunas cosas para agregar pero no lo veo necesario ponerlos aqui doy por finalizado momentaneamente 
