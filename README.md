@@ -59,7 +59,11 @@ Entre las multiples cosas los tags son importantes para mencionar versiones dent
 
 Este se agrega de la siguiente forma
 
-git tag -a [nombre del tag] -m "mensaje" (hash) /// que hash vendria a ser como el numero de la base de datos mencionada anteriormente 
+git tag -a [nombre del tag] -m "mensaje" (hash) /// que hash vendria a ser como el numero de la base de datos mencionada anteriormente y a la vez (git show-ref --tags) mostrando los tags  en uso  pero y si necesitas eliminar hay un comando util (git tag -d [nombre del tag]) pero solo funciona en tu repositorio local pero no en la web de github para ello debemos hacer un "push a la rama que agregaste" desde la terminal como todo (git push origin :refs/tags/[nombre de el tag]) y automaticamente borrando el tag de github
+
+Pero  cuando llegas a colaborar con otras personas como "usuario" y el repositorio lo creo "jefe" usuario necesita hacer un (git clone [url de origen]) y poder hacer un cambio pero solo si jefe invita a colaborar en el proyecto posteriormente usuario aceptando la invitacion y asi poder hacer un "push al sistema"
+
+Pero al momento de tener un flujo de trabajo con diversas personas nada debe de ser enviado al MASTER hasta no ser revisado por un DevOps para ello debe haber una rama simulando ser el "master"
 
 
 
